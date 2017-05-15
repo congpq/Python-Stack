@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-#教学视频第24集
+#学习课程第24集
 
 product_list = [
     ('iPhone',5800),
