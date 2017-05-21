@@ -33,7 +33,7 @@ print('+++++++++++++++++++++++++++')
 print( list_1.isdisjoint(list_2) )
 print('----------------------')
 list_1.add(999)
-list_1.update([888,555,777])
+list_1.update([888, 555, 777])
 print(list_1)
 #remove如果值不存在set中将抛出异常
 list_1.remove(555)
