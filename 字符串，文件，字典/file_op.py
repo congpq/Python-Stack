@@ -48,4 +48,3 @@ print(f.flush())
 #f.write("天安门上天上升\n")
 
 #f.close()
-
