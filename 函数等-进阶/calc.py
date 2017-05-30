@@ -16,3 +16,17 @@ def add(a, b, f):
 
 res = add(3, -6, abs)
 print(res)
+
+def func1(arg1, arg2, *args, **kwargs):
+    print(arg1),
+    print(arg2),
+    print(args),
+    print(kwargs)
+
+func1(1, 2, 4, 6, 99, name="alex", age=32)
+
+
+
+
+
+
