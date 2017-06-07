@@ -1,8 +1,9 @@
+#!/usr/bin/env bash
 # Date 2017-05-19
 # chkconfig: 2345 10 90
 # description: Start and Stop redis
 
---在/etc/rc.d/init.d/目录下新建redis文件，将脚本内容拷贝进去
+--在/etc/rc.d/init.d/目录下新建redis文件,将脚本内容拷贝进去
 --chkconfig --add redis   #注册服务
 --chkconfig --level 345 redis on  #指定服务在3、4、5级别运行
 
